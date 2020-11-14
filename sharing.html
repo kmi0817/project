@@ -4,7 +4,30 @@
   <meta charset="utf-8">
   <title>한국여성의 집</title>
   <link href="style.css" type="text/css" rel="stylesheet">
+  <style>
+    #article2 {
+      padding: 0.5em;
+      margin: 0.5em;
+      border: 1px solid #c1c4c8;
+    }
+    #article2 #bank, td {
+      padding: 10px;
+      border: 1px solid #c1c4c8;
+      border-collapse: collapse;
+    }
 
+    #article #bank #name {
+      background:blue;
+    }
+    #article2 dt {
+      margin-top: 2em;
+      margin-bottom: 0.5em;
+      border: 1px solid #c1c4c8;
+      padding: 0.5em;
+      display: inline-block;
+      border-radius: 10px;
+    }
+  </style>
 </head>
 <body>
   <header id="header">
@@ -34,8 +57,51 @@
     </aside>
 
     <section id="section">
-      section
-      Cascading Style Sheets    (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML.[1] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.[2] CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.[3] This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, and reduce complexity and repetition in the structural content.Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice (via speech-based browser or screen reader), and on Braille-based tactile devices. CSS also has rules for alternate formatting if the content is accessed on a mobile device.[4]
+      <img src="stitle03-1.gif">
+      <hr>
+      <article>
+        <img src="support_num01.gif"><br>
+        <img src="support_num02.gif"><br>
+        <img src="support_num03.gif"><br>
+        <img src="support_num04.gif"><br>
+        <img src="support_num05.gif"><br>
+      </article>
+      <article id="article2">
+        <dl>
+          <dt id="first" style="margin-top: 0">후원계좌</dt>
+          <hr>
+          <dd>
+            <table id="bank">
+              <tbody>
+                <tr>
+                  <td>입금은행(계좌)</td>
+                  <td>하나은행: 379-810001-18204</td>
+                </tr>
+                <tr>
+                  <td>예금주</td>
+                  <td>한국여성의집</td>
+                </tr>
+              </tbody>
+            </table>
+        </dd>
+        <dt>재정후원</dt>
+        <hr>
+          <dd>
+            개인 또는 교회 기관 기업체 외에서 특별한 목적 또는 일정구좌 (1구좌 5,000원)외에 정기/비정기적으로 후원하실수 있습니다.
+          </dd>
+        <dt>결연후원</dt>
+        <hr>
+          <dd>
+            개인이나 단체와 맺는 사랑의 끈입니다.<br>정기/비정기적으로 방문 또는 후원금품으로 금전적인 도움 이외에 정서적으로 지지해 주실 수 있고, 영화 문화 공연 등의 지원기회를 통해 좋은 멘토가 되어 주실 수 있습니다.
+          </dd>
+          <dt>물품후원</dt>
+          <hr>
+          <dd>
+            각종 물품 (예:의류, 침구, 도서, 운동기구, 생필품, 간식, 기타 쿠폰 외)등 마음과 정성으로 주시는 것이며 영혼을살찌우고 감사로 나아가는 밑거름이 될 것입니다.
+          </dd>
+        </dl>
+      </article>
+      <img src="call_center.gif">
     </section>
   </div>
 
